@@ -11,7 +11,7 @@ About
 - Send SMS using Twilio API .
 - Login and registration in data base Sqlite
 - Admin control panel , the admin can view , modify and delete the tickets
-
+<h3>before run the project just build it using IDE</h3>
 <br>
 
 Client Side 
@@ -60,6 +60,7 @@ Notes
 - 2 and change line 17 to your AUTH_TOKEN  in [server > model > SMS_API.java ]
 - you need to make gmail account and enable gmail enable less secure apps 
 - and change line 37 and put your email and passowrd also in line 44  in server , model ,  Send_Email class 
+<br>
 Using 
 =
 - The first class you should to run is Server_Server[ server > model > Server_Server.java].
@@ -69,6 +70,7 @@ Using
 - then continue .
 - On the Admin side run [Server\src\main\Main.java]
 -  view ,modify and delete the tickets .
+<br>
 Contact
 =
 - Facebook :https://www.facebook.com/ismael.alsafadi

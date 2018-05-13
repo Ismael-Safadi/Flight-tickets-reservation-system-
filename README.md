@@ -54,14 +54,26 @@ Notes
 =
 - Admin password is 123456
 - you need to make make an account in twilio website and fill the api information as following 
-- 1 you need to change line 15 to your ACCOUNT_SID  in server , model , SMS_API class 
-- 2 and change line 17 to your AUTH_TOKEN  in server , model , SMS_API class 
+- 1 you need to change line 15 to your ACCOUNT_SID  in [server > model > SMS_API.java ]
+- 2 and change line 17 to your AUTH_TOKEN  in [server > model > SMS_API.java ]
 - you need to make gmail account and enable gmail enable less secure apps 
 - and change line 37 and put your email and passowrd also in line 44  in server , model ,  Send_Email class 
 Using 
 =
-- The first class you should to run is Server_Server  path > server , model , Server_Server.java  class  
-- then on the clent side run 
+- The first class you should to run is Server_Server[ server > model > Server_Server.java].
+- then on the client side run [Client\src\main\Main.java]
+- click login then the new window will open , select your email and password 
+- if this is the first time for you click register and create new account 
+- then continue .
+- On the Admin side run [Server\src\main\Main.java]
+-  view ,modify and delete the tickets .
+Contact
+=
+- Facebook :https://www.facebook.com/ismael.alsafadi
+
+- Email : ismaelalsafadi@protonmail.com
+<br>
+<h2>Thank You</h2>
 
 
 

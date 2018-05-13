@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DeleteController">
+   <children>
+      <Button layoutX="268.0" layoutY="344.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="65.0" onAction="#onDeleteClick" text="Delete" />
+      <ImageView fitHeight="116.0" fitWidth="158.0" layoutX="243.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Delete.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="153.0" text="Delete Ticket">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="200.0" text="Passport ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PID" layoutX="285.0" layoutY="198.0" />
+      <TextField fx:id="Admin_Pass" layoutX="285.0" layoutY="266.0" />
+      <Label layoutX="150.0" layoutY="268.0" text="Admin Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

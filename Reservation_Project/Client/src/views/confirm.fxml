@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="287.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.confirmController">
+   <children>
+      <Button layoutX="142.0" layoutY="243.0" mnemonicParsing="false" onAction="#confirm" text="Confirm">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="104.0" fitWidth="124.0" layoutX="125.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/confirm.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="98.0" layoutY="124.0" text="Confirm Reservation">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="162.0" text="Passport ID">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="204.0" text="Secret Code">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PID" layoutX="171.0" layoutY="160.0" />
+      <TextField fx:id="secret" layoutX="171.0" layoutY="202.0" />
+   </children>
+</AnchorPane>

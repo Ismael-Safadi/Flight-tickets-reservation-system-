@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.registerController">
+   <children>
+      <ImageView fitHeight="142.0" fitWidth="150.0" layoutX="146.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Register.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="191.0" prefHeight="31.0" prefWidth="133.0" text="User Name">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="291.0" prefHeight="31.0" prefWidth="95.0" text="Password">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="245.0" prefHeight="27.0" prefWidth="85.0" text="Email">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="345.0" prefHeight="31.0" prefWidth="155.0" text="Confirm Password">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="register" layoutX="178.0" layoutY="394.0" mnemonicParsing="false" onAction="#register" prefHeight="31.0" prefWidth="85.0" text="Register">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="name" layoutX="230.0" layoutY="194.0" prefHeight="25.0" prefWidth="173.0" />
+      <TextField fx:id="email" layoutX="230.0" layoutY="246.0" prefHeight="25.0" prefWidth="173.0" />
+      <PasswordField fx:id="password" layoutX="230.0" layoutY="294.0" prefHeight="25.0" prefWidth="173.0" />
+      <PasswordField fx:id="confirm_password" layoutX="230.0" layoutY="348.0" prefHeight="25.0" prefWidth="173.0" />
+   </children>
+</Pane>

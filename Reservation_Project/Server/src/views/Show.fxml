@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ShowController">
+   <children>
+      <Label layoutX="192.0" layoutY="23.0" text="Admin Control Panel">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="95.0" fitWidth="102.0" layoutX="253.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Admin.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="Tickets" layoutX="17.0" layoutY="166.0" prefHeight="199.0" prefWidth="567.0">
+        <columns>
+          <TableColumn fx:id="PID" prefWidth="173.0" text="Passport ID" />
+          <TableColumn fx:id="TicketID" minWidth="0.0" prefWidth="192.0" text="Tciket Code" />
+          <TableColumn fx:id="Date" prefWidth="201.0" text="Date OF Flight" />
+        </columns>
+      </TableView>
+      <Button layoutX="481.0" layoutY="389.0" mnemonicParsing="false" onAction="#onModifyClick" prefHeight="25.0" prefWidth="65.0" text="Modify" />
+      <Button layoutX="344.0" layoutY="389.0" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="25.0" prefWidth="65.0" text="Delete" />
+      <Button layoutX="63.0" layoutY="389.0" mnemonicParsing="false" onAction="#onExitClick" prefHeight="25.0" prefWidth="65.0" text="Exit" />
+      <Button fx:id="refresh" layoutX="210.0" layoutY="389.0" mnemonicParsing="false" onAction="#refresh" prefHeight="25.0" prefWidth="65.0" text="Refresh" />
+   </children>
+</Pane>

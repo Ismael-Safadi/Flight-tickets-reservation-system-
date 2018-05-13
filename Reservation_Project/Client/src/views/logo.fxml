@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="stop" prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.logoController">
+   <children>
+      <ImageView fitHeight="336.0" fitWidth="614.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="228.0" layoutY="20.0" text="Welcome">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="login" layoutX="262.0" layoutY="277.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: transparent;" text="Login" textFill="#d70707">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

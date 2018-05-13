@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.loginController">
+   <children>
+      <Button fx:id="login" layoutX="89.0" layoutY="317.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="83.0" text="Login">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/login.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="41.0" layoutY="181.0" prefHeight="31.0" prefWidth="133.0" text="Email">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="180.0" layoutY="184.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label layoutX="41.0" layoutY="247.0" prefHeight="31.0" prefWidth="95.0" text="Password">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="180.0" layoutY="250.0" prefHeight="25.0" prefWidth="165.0" />
+      <Button layoutX="254.0" layoutY="317.0" mnemonicParsing="false" onAction="#register" prefHeight="37.0" prefWidth="83.0" text="Register">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

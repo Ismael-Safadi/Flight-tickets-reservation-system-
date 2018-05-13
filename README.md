@@ -4,6 +4,7 @@ Client and Server Flight-tickets-reservation-system using java
 About
 =
 - An Desktop application for Flight tickets reservation using java 
+- Version 1.0
 - Client and server over local network using socket 
 - All data that transferred  will be encrypted using AES algorithm
 - Send email using SMTP protocol

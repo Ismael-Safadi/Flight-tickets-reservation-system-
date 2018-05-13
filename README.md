@@ -61,6 +61,7 @@ Notes
 - you need to make gmail account and enable gmail enable less secure apps 
 - and change line 37 and put your email and passowrd also in line 44  in server , model ,  Send_Email class 
 <br>
+
 Using 
 =
 - The first class you should to run is Server_Server[ server > model > Server_Server.java].
@@ -78,6 +79,3 @@ Contact
 - Email : ismaelalsafadi@protonmail.com
 <br>
 <h2>Thank You</h2>
-
-
-

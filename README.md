@@ -12,7 +12,7 @@ About
 - Admin control panel , the admin can view , modify and delete the tickets
 
 <br>
-Client Side 
+Version
 =
 - Version 1.0
 

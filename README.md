@@ -12,11 +12,6 @@ About
 - Admin control panel , the admin can view , modify and delete the tickets
 
 <br>
-Version
-=
-- Version 1.0
-
-<br>
 Client Side 
 =
 - The first window when open the client main class ,welcome window

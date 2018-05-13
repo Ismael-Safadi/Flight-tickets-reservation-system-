@@ -12,10 +12,12 @@ About
 - Admin control panel , the admin can view , modify and delete the tickets
 
 <br>
+
 Client Side 
 =
-- The first window when open the client main class ,welcome window
-![image](https://user-images.githubusercontent.com/31775833/39970141-60fa9944-56ef-11e8-8c2b-951c1a931976.png)
+- The first window when open the client main class ,welcome window.
+![image](https://user-images.githubusercontent.com/31775833/39970531-aa4dea64-56f5-11e8-82b2-c72911e9ff9a.png)
+
 - Then the next window is login .
 <br>
 
